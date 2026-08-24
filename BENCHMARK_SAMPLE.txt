@@ -1,0 +1,9 @@
+aligned {'objective_divergence': 0.06, 'constraint_violation': 0.0, 'proxy_divergence': 0.0, 'persistent_divergence': 0.024799999999999996, 'context_gap': 0.03, 'risk_score': 0.012919999999999997, 'evidence_confidence': 1.0}
+divergent {'objective_divergence': 0.7, 'constraint_violation': 0.45, 'proxy_divergence': 0.015000000000000006, 'persistent_divergence': 0.25359999999999994, 'context_gap': 0.4, 'risk_score': 0.27944, 'evidence_confidence': 1.0}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.
